@@ -1,0 +1,199 @@
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:wght@400&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Poppins', sans-serif; */
+    box-sizing: border-box;
+}
+
+
+.Navbar header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    background: transparent;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    transition: background 0.3s;
+}
+
+nav.scrolled {
+    background:var(--primary-clr) ;
+}
+
+nav .icon img {
+    height: 60px;
+   
+}
+
+nav ol {
+    display: flex;
+    list-style: none;
+    margin: auto 0;
+}
+
+nav ol li {
+    margin: 0 2px;
+}
+
+nav ol li a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+}
+
+/* nav.scrolled ol li {
+    color: #ff0000;
+} */
+
+nav ol li:hover a {
+    color:blue ;
+    font-size: 20px;
+}
+
+.search_boxes {
+    display: flex;
+    align-items: center;
+    margin: auto 0;
+    height: 35px;
+    line-height: 35px;
+}
+
+nav .search_boxes input {
+    border: none;
+    outline: none;
+    background: #fff;
+    height: 100%;
+    padding: 0 10px;
+    font-size: 20px;
+    width: 350px;
+}
+
+nav .search_boxes span {
+    color:blue;
+    font-size: 20px;
+    background: #fff;
+    height: 100%;
+    padding: 8px;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+}
+
+nav .search_boxes span:hover {
+    color:#fff;
+}
+
+nav .search_boxes span::after {
+    height: 100%;
+    width: 0%;
+    content: '';
+    background:blue;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    transition: 0.3s;
+}
+
+nav .search_boxes span:hover::after {
+    width: 100%;
+}
+
+nav .bar {
+    display: none;
+}
+
+nav .bar span {
+    font-size: 30px;
+    color: #fff;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+@media screen and (max-width: 824px) {
+    nav {
+        flex-direction: column;
+        padding: 0;
+    }
+    nav .icon img {
+        margin-right:400px;
+    }
+
+    nav .search_boxes {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 15px;
+        z-index: 0; /* Ensure search box is below the menu */
+    }
+
+    nav .search_boxes input {
+        width: 90%;
+    }
+
+    nav ol {
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 0;
+        visibility: hidden;
+        transition: 0.3s;
+        background-color:var(--primary-clr);
+        z-index: 1; /* Ensure menu is above other elements */
+    }
+
+    nav ol li {
+        text-align: center;
+    }
+
+    nav ol li a {
+        color: #f4f0f0;
+        font-size: 18px;
+        padding: 25px;
+        display: block;
+    }
+
+    nav .bar {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        cursor: pointer;
+        z-index: 2; /* Ensure the toggle button is above other elements */
+    }
+
+    nav .bar #times {
+        display: none;
+    }
+
+    #check:checked ~ .bar #times {
+        display: block;
+    }
+
+    #check:checked ~ .bar #bars {
+        display: none;
+    }
+
+    #check:checked ~ nav ol {
+        visibility: visible;
+        height: auto;
+        max-height: 100vh; /* Ensure it takes the full height if needed */
+    }
+}
