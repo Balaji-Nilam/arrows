@@ -1,0 +1,53 @@
+ [
+      {
+        "name": "Indian Institute of Technology (IIT), Tirupati",
+        "city": "Tirupati",
+        "website": "https://www.iittp.ac.in"
+      },
+      {
+        "name": "Jawaharlal Nehru Technological University (JNTU), Kakinada",
+        "city": "Kakinada",
+        "website": "https://www.jntuk.edu.in"
+      },
+      {
+        "name": "National Institute of Technology (NIT), Andhra Pradesh",
+        "city": "Tadepalligudem",
+        "website": "https://www.nitandhra.ac.in"
+      },
+      {
+        "name": "Sri Venkateswara University, Tirupati",
+        "city": "Tirupati",
+        "website": "http://www.svuniversity.edu.in"
+      },
+      {
+        "name": "Andhra University College of Engineering, Visakhapatnam",
+        "city": "Visakhapatnam",
+        "website": "https://www.andhrauniversity.edu.in/engg/"
+      },
+      {
+        "name": "Sri Venkateswara College of Engineering and Technology, Chittoor",
+        "city": "Chittoor",
+        "website": "http://www.svcetedu.org"
+      },
+      {
+        "name": "Vignan's Foundation for Science, Technology & Research (Deemed to be University), Guntur",
+        "city": "Guntur",
+        "website": "https://www.vignan.ac.in"
+      },
+      {
+        "name": "Velagapudi Ramakrishna Siddhartha Engineering College, Vijayawada",
+        "city": "Vijayawada",
+        "website": "http://www.vrsiddhartha.ac.in"
+      },
+      {
+        "name": "RVR & JC College of Engineering, Guntur",
+        "city": "Guntur",
+        "website": "http://www.rvrjcce.ac.in"
+      },
+      {
+        "name": "Gayatri Vidya Parishad College of Engineering, Visakhapatnam",
+        "city": "Visakhapatnam",
+        "website": "http://www.gvpcdpgc.edu.in"
+      }
+ ]
+  

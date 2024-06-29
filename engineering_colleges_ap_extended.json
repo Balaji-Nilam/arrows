@@ -1,0 +1,140 @@
+[
+    {
+        "name": "Indian Institute of Technology (IIT) Tirupati",
+        "location": "Tirupati",
+        "established": 2015,
+        "affiliation": "Autonomous under the Ministry of Education, Government of India"
+    },
+    {
+        "name": "Jawaharlal Nehru Technological University (JNTU) Kakinada",
+        "location": "Kakinada",
+        "established": 1946,
+        "affiliation": "Autonomous"
+    },
+    {
+        "name": "Andhra University College of Engineering",
+        "location": "Visakhapatnam",
+        "established": 1955,
+        "affiliation": "Andhra University"
+    },
+    {
+        "name": "Vignan's Foundation for Science, Technology & Research (Deemed to be University)",
+        "location": "Guntur",
+        "established": 1997,
+        "affiliation": "Deemed University"
+    },
+    {
+        "name": "Koneru Lakshmaiah Education Foundation (K L University)",
+        "location": "Vaddeswaram, Guntur District",
+        "established": 1980,
+        "affiliation": "Deemed University"
+    },
+    {
+        "name": "Sri Venkateswara University College of Engineering",
+        "location": "Tirupati",
+        "established": 1959,
+        "affiliation": "Sri Venkateswara University"
+    },
+    {
+        "name": "Gayatri Vidya Parishad College of Engineering",
+        "location": "Visakhapatnam",
+        "established": 1996,
+        "affiliation": "JNTU Kakinada"
+    },
+    {
+        "name": "RVR & JC College of Engineering",
+        "location": "Guntur",
+        "established": 1985,
+        "affiliation": "JNTU Kakinada"
+    },
+    {
+        "name": "GMR Institute of Technology",
+        "location": "Rajam, Srikakulam",
+        "established": 1997,
+        "affiliation": "JNTU Kakinada"
+    },
+    {
+        "name": "Aditya Engineering College",
+        "location": "Surampalem, East Godavari",
+        "established": 2001,
+        "affiliation": "JNTU Kakinada"
+    },
+    {
+        "name": "Sagi Ramakrishnam Raju Engineering College",
+        "location": "Bhimavaram, West Godavari",
+        "established": 1980,
+        "affiliation": "JNTU Kakinada"
+    },
+    {
+        "name": "Velagapudi Ramakrishna Siddhartha Engineering College",
+        "location": "Vijayawada",
+        "established": 1977,
+        "affiliation": "JNTU Kakinada"
+    },
+    {
+        "name": "Anil Neerukonda Institute of Technology & Sciences (ANITS)",
+        "location": "Visakhapatnam",
+        "established": 2001,
+        "affiliation": "Andhra University"
+    },
+    {
+        "name": "Lakireddy Bali Reddy College of Engineering",
+        "location": "Mylavaram, Krishna District",
+        "established": 1998,
+        "affiliation": "JNTU Kakinada"
+    },
+    {
+        "name": "Sri Venkatesa Perumal College of Engineering and Technology",
+        "location": "Puttur, Chittoor",
+        "established": 2001,
+        "affiliation": "JNTU Anantapur"
+    },
+    {
+        "name": "Prasad V. Potluri Siddhartha Institute of Technology",
+        "location": "Vijayawada",
+        "established": 1998,
+        "affiliation": "JNTU Kakinada"
+    },
+    {
+        "name": "Rajeev Gandhi Memorial College of Engineering and Technology",
+        "location": "Nandyal",
+        "established": 1995,
+        "affiliation": "JNTU Anantapur"
+    },
+    {
+        "name": "Narasaraopeta Engineering College",
+        "location": "Narasaraopet",
+        "established": 1998,
+        "affiliation": "JNTU Kakinada"
+    },
+    {
+        "name": "Gudlavalleru Engineering College",
+        "location": "Gudlavalleru",
+        "established": 1998,
+        "affiliation": "JNTU Kakinada"
+    },
+    {
+        "name": "Vasireddy Venkatadri Institute of Technology",
+        "location": "Guntur",
+        "established": 2007,
+        "affiliation": "JNTU Kakinada"
+    },
+    {
+        "name": "Godavari Institute of Engineering and Technology",
+        "location": "Rajahmundry",
+        "established": 1998,
+        "affiliation": "JNTU Kakinada"
+    },
+    {
+        "name": "Chaitanya Bharathi Institute of Technology",
+        "location": "Proddatur",
+        "established": 2008,
+        "affiliation": "JNTU Anantapur"
+    },
+    {
+        "name": "SRKR Engineering College",
+        "location": "Bhimavaram",
+        "established": 1980,
+        "affiliation": "JNTU Kakinada"
+    }
+]
